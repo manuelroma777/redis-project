@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#shortened-url {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#all-links-btn {
+    margin-top: 10px;
+}
+
+/* Estilos para index2.html (la lista de enlaces acortados) */
+ul {
+    list-style-type: none;  /* Elimina el estilo predeterminado de lista */
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Color de los enlaces */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+

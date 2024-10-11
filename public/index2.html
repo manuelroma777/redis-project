@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+    <title>Recent Links</title>    
+</head>
+<body>
+    <div class="container">
+        <h1>Last 5 Shortened Links</h1>
+        <ul id="links-list"></ul> <!-- Aquí se mostrarán los enlaces -->
+    </div>
+    <script>
+        // Al cargar la página, obtener los enlaces recientes
+        fetch('/all-links')
+            .then(response => response.json())
+            .then(data => {
+                const linksList = document.getElementById('links-list');
+                data.links.forEach(link => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `<a href="${link}" target="_blank">${link}</a>`; // Hacer que los enlaces sean clicables
+                    linksList.appendChild(li);
+                });
+            })
+            .catch(error => console.log('Error al obtener los enlaces:', error));
+    </script>
+</body>
+</html>
