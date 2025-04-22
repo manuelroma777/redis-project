@@ -53,7 +53,8 @@ Este proyecto se puede ejecutar en los siguientes entornos:
 - **MacOS**
   
 
-🚀 Cómo iniciar el proyecto
+## Cómo iniciar el proyecto 🚀
+
 Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
 
 Clona este repositorio:
