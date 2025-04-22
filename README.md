@@ -7,6 +7,19 @@ Este es un proyecto de un **acortador de enlaces** simple, que utiliza **Redis**
 - **Acortar Enlaces**: Los usuarios pueden pegar un enlace y obtener una versión acortada del mismo.
 - **Redirección**: Los enlaces acortados redirigen a la URL original.
 - **Historial de Enlaces**: Muestra los últimos 5 enlaces acortados.
+
+---
+
+### 🔐 Home
+![Home](https://raw.githubusercontent.com/manuelroma777/luis-roma-react-portfolio/refs/heads/master/static/assets/images/portfolio-1.png).
+
+### 🔐 About
+![Shortened url](https://raw.githubusercontent.com/manuelroma777/luis-roma-react-portfolio/refs/heads/master/static/assets/images/portfolio-2.png).
+
+### 🔐 Contact
+![Last 5 Shortened Links](https://raw.githubusercontent.com/manuelroma777/luis-roma-react-portfolio/refs/heads/master/static/assets/images/portfolio-3.png)
+
+
   
 ## Tecnologías Utilizadas
 
