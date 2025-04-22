@@ -13,10 +13,10 @@ Este es un proyecto de un **acortador de enlaces** simple, que utiliza **Redis**
 ### 🔐 Home
 ![Home](https://raw.githubusercontent.com/manuelroma777/redis-project/refs/heads/main/public/images/Redis%20Pic%201.png).
 
-### 🔐 About
+### 🔐 Shortened url
 ![Shortened url](https://raw.githubusercontent.com/manuelroma777/redis-project/refs/heads/main/public/images/Redis%20Pic%202.png).
 
-### 🔐 Contact
+### 🔐 Last 5 Shortened Links
 ![Last 5 Shortened Links](https://raw.githubusercontent.com/manuelroma777/redis-project/refs/heads/main/public/images/Redis%20Pic%203.png)
 
 
