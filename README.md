@@ -52,8 +52,29 @@ Este proyecto se puede ejecutar en los siguientes entornos:
 - **Linux**
 - **MacOS**
   
+
+🚀 Cómo iniciar el proyecto
+Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
+
+Clona este repositorio:
+git clone https://github.com/manuelroma777/redis-project.git
+
+
+Navega al directorio del proyecto:
+cd redis-project
+
+
+Instala las dependencias:
+npm install
+
+Inicia la aplicación:
+npm start
+
+Abre tu navegador y visita:
+http://localhost:4567
+
 El proyecto es compatible con cualquier entorno que pueda ejecutar Node.js y Redis.
-Pudes verlo en tu navegador en http://localhost:4567
+
 
 ## Autor
 - **Luis Roma** - Estudiante de Full Stack Development.
